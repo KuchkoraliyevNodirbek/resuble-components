@@ -1,0 +1,51 @@
+.btn {
+  padding: 10px 24px;
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+
+  /* Default styles */
+  padding: 10px 24px;
+}
+
+/* Primary button style */
+.primary {
+  background-color: rgb(64, 64, 230);
+}
+
+/* Secondary button style */
+.secondary {
+  background-color: rgb(64, 230, 108);
+}
+
+/* Danger button style */
+.danger {
+  background-color: rgb(230, 72, 64);
+}
+
+/* Hover styles for all buttons */
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+}
+
+/* Hover styles for primary button */
+.primary:hover {
+  background-color: rgb(44, 44, 200); /* Darken primary button on hover */
+}
+
+/* Hover styles for secondary button */
+.secondary:hover {
+  background-color: rgb(44, 200, 84); /* Darken secondary button on hover */
+}
+
+/* Hover styles for danger button */
+.danger:hover {
+  background-color: rgb(200, 44, 44); /* Darken danger button on hover */
+}
